@@ -148,6 +148,3 @@ echo "Le résultat du calcul $numA + $numB est $result";
     if($numA != $numB){
         // Faire quelque
     }
-
-
-?>

@@ -21,7 +21,6 @@
     Pour cela, vous allez entrer la valeur en dur (directement sur la variable)
     Vous allez devoir utiliser les conditions
 */
-
 function calculDouble($valeur, $seuil) {
     if ($valeur < $seuil) {
         return $valeur * 2;
@@ -29,11 +28,13 @@ function calculDouble($valeur, $seuil) {
     return $valeur;
 }
 
-$valeur = 20;
+$valeur = 5;
 $seuil = 10;
 
-echo "Le seuil est : $seuil <br>";
-echo 'La valeur est : ' . calculDouble($valeur, $seuil);
+echo "Le seuil est : $seuil<br>";
+echo 'La valeur est : ' . calculDouble($valeur, $seuil) . "<br>";
 
-?>
+$valeur = 20;
 
+echo "Le seuil est : $seuil<br>";
+echo 'La valeur est : ' . calculDouble($valeur, $seuil) . "<br>";

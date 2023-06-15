@@ -19,7 +19,6 @@
     Le prix HT est = 10€, le prix TTC est = 12€, le montant total de la TVA est = 2€
 
 */
-
 function calculPrixTTC($prixHT, $taxe) {
     return $prixHT * $taxe;
 }
