@@ -22,6 +22,7 @@
 // Le prix HT doit être récupéré directement sur le formulaire
 $TVA = 20;
 ?>
+<h2>Version avec GET</h2>
 <form action="#" method="get">
     <label for="texte">Entrez un prix HT</label>
     <input type="text" id="texte" name="prix" placeholder="Tapez le prix ici">
