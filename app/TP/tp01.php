@@ -28,6 +28,6 @@ $prixHT = 10;
 $taxe = 20 / 100;
 $prixTTC = calculPrixTTC($prixHT, $taxe);
 
-echo "Le prix HT est : $prixHT <br>";
-echo "La taxe est de : $taxe <br>";
-echo "Le prix HT est : $prixTTC <br>";
+echo "Le prix HT est : $prixHT €<br>";
+echo "La taxe est de : $taxe<br>";
+echo "Le prix TTC est : $prixTTC €<br>";
