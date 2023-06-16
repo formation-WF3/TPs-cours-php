@@ -86,7 +86,6 @@ if (!empty($_POST['submit'])) {
         // Sinon affiche "Veuillez renseigner les informations
         echo "<h1>Veuillez renseigner les informations</h1>";
     }
-
     ?>
 
     <form action="#" method="post">

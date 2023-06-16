@@ -69,8 +69,8 @@ echo 'MySQL version:' . $row['Value'];
     <br>
     <?php include '../TP/tp04.php'; ?>
     <br>
-    <!-- Le TP05 est une page complete qui doit remplacer la index.php -->
-
+    <!-- Le TP05 est une page complete qui doit remplacer index.php -->
+    <!-- Le TP06 est une page complete qui doit remplacer index.php -->
 
 </body>
 </html>
