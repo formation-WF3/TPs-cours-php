@@ -66,6 +66,8 @@ echo 'MySQL version:' . $row['Value'];
     <br>
     <?php include '../TP/tp03.php'; ?>
     <br>
+    <?php include '../TP/tp04.php'; ?>
+    <br>
 
 </body>
 </html>
