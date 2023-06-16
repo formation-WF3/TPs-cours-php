@@ -19,14 +19,15 @@ echo 'MySQL version:' . $row['Value'];
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cours PHP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
-    <h1>Bonjour</h1>
-    <?php
-        echo "<p>Lorem ipsum</p>";
-    ?>
+    <h1>Bienvenue au cours PHP</h1>
 
     <h2>
         <?php
@@ -68,6 +69,8 @@ echo 'MySQL version:' . $row['Value'];
     <br>
     <?php include '../TP/tp04.php'; ?>
     <br>
+    <!-- Le TP05 est une page complete qui doit remplacer la index.php -->
+
 
 </body>
 </html>
